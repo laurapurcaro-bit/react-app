@@ -1,3 +1,17 @@
+# Create github repo
+
+```
+brew install gh
+
+gh auth login
+
+gh repo create react-app --public
+
+git remote add my-app https://github.com/laurapurcaro-bit/react-app.git
+
+git push -u origin <your-branch-name>
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
