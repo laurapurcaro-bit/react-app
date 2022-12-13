@@ -4,11 +4,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const year = new Date().getFullYear();
-
 function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="footer">
+    <footer>
       <p>Copyright {year}</p>
     </footer>
   );

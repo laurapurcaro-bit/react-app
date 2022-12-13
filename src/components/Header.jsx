@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 function Header() {
   return (
-    <header className="header">
+    <header>
       <h1>Keeper App</h1>
     </header>
   );
